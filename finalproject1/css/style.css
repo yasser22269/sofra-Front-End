@@ -1,0 +1,776 @@
+
+
+html{
+   direction: rtl;
+}
+body{
+   overflow-x: hidden;
+   font-family: 'Cairo', sans-serif;
+}
+.acttive{
+
+border-bottom: 4px solid #300d46;
+    width: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*start nav bar*/
+.custom{
+   float: left;
+   margin-left: 14.5rem;
+}
+.logo{
+      width: 20%;
+ margin:  0 auto;
+   display: -webkit-box;
+}
+.navbar{
+   width: 100%;
+}
+.burger{
+   display: grid;
+}
+.fa-hamburger{
+   color: #EC3454;
+   font-size: 40px;
+}
+.fa-shopping-cart{
+   color: #EC3454;
+   font-size: 40px;
+}
+.fa-user-circle{
+       color: #EC3454;
+   font-size: 40px;
+   margin-right: 5rem;
+}
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #EC3454;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index:1;
+    color: #fff;
+}
+.dropdown-content a {
+ color: #fff;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+    
+}
+.dropdown-content a:hover {background-color: #240041; color: #fff;}
+.dropdown:hover .dropdown-content {display: block;}
+.navbar-light .navbar-toggler {
+   border: none;
+    color: #fff;
+}
+button:focus{
+   outline: none;
+}
+/*/------------------ Header ----------------/*/
+
+
+
+
+
+
+
+/*start header*/
+
+.header{
+    background-image: url(../images/header.png);
+    background-size: cover;
+    padding-bottom: 132px;
+}
+.div-header{
+    color: #fff;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 62px;
+    padding-top: 120px;
+}
+
+.text-header{
+    color: #fff;
+    text-align: center;
+    margin-top: 38px;
+    font-size: 34px;
+}
+.img-header{
+    display: -webkit-box;
+    margin: 0 auto;
+    width: 202px;
+    margin-top: 50px;
+}
+/*end header*/
+
+/*Start best resturant*/
+
+.resturant{
+    background-image: url(../images/Group%201034-min.png);
+    padding-bottom: 50px;
+    
+}
+.text-resturant{
+    text-align: center;
+    padding-top: 63px;
+    color: #23003e;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.icon{
+    margin-bottom: 70px;
+    padding: 62px 20px;
+    display: -webkit-box;
+    margin: 0 auto;
+    margin-right: 211px;
+    
+}
+
+.text-restaurant2{
+    display: block;
+    text-align: center;
+    text-align: --auto;
+    margin-right: 80px;
+    font-size: 25px;
+    color: #e23856;
+}
+ .font{
+    text-align: block;
+    text-align: left;
+    font-size: 20px;
+}
+.text-rest3{
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+    margin-right: 0px;
+    margin-left: 119px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.text-rest4{
+    text-align: left;
+}
+.text-rest5{
+    text-align: center;
+    margin-right: 125px;
+}
+.img-rest{
+     margin-top: -170px;
+    width:200px;
+}
+
+/*End best resturant*/
+
+
+/*start offer*/
+.text-offer{
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    padding-top: 54px;
+    font-size: 26px;
+}
+.back{
+    background-image: url(../images/Group%201038.jpg);
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+      margin-top: 62px;
+}
+.img-offer{
+        width: 75%;
+    margin-top: 27px;
+    
+}
+.button-offer{
+        display:block;
+    margin: 0 auto;
+    padding: 10px 25px;
+    background-color: #8c1e74;
+    border: none;
+    transition: all .5s ease-in-out;
+}
+.button-offer-com{
+    margin: 0 auto;
+    border-radius: 200px;
+    background-color: #8c1e74;
+    border: none;
+    color: #fff;
+    margin-top: 17px; 
+    display: inline-block;
+    background-color:#009422;
+        padding: 17px 57px;
+        margin-right: 76px;
+    
+    transition: all .5s ease-in-out;
+}
+.img-com-current{
+    width: 30%;
+    float: right;
+    border: 3px solid #f00;
+    border-radius:200px;
+    margin-left: 28px;
+}
+
+
+
+/*End offer*/
+
+
+/*start download app now */
+
+.download{
+    background-image: url(../images/Group%201035.png);
+    background-size: cover;
+    margin-top: 50px;
+
+}
+.text-download{
+
+    color: #fff;
+    font-size: 45px;
+    margin-top: 80px;    
+}
+
+.text-download2{
+    color: #fff;
+    text-align: center;
+    background-image: url(../images/download%20button.png);
+    border-radius: 30px;
+    padding: 14px 100px;
+    font-size: 31px;
+    border: none;
+    margin-top: 60px;
+    transition: all .5s ease-in-out;
+    margin-right: 90px;
+}
+.text-download2:hover{
+color: coral;
+    cursor: pointer;
+
+}
+.img-download{
+    width: 112%;
+}
+
+
+/*End download app now */
+
+
+/*start footer*/
+
+.footer{
+    background-image: url("../images/footer%20bg.png");
+        padding-bottom: 100px;
+    padding-top: 45px;
+      
+}
+.img-footer{
+    margin: 0 auto;
+    width: 50%;
+    display: -webkit-box;
+    margin-top: 28px;
+}  
+.text-footer{
+        color: #fff;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.text-footer2{
+        color: #fff;
+    padding-top: 30px;
+       margin-right: 30px;
+}
+.font2{
+        color: #fff;
+      margin-right: 182px;
+    margin-top: 33px;
+}
+.fa-facebook-f{
+    transition: all .5s ease-in-out;
+}
+.fa-facebook-f:hover{
+
+color: #083d65;
+    cursor: pointer;
+}
+
+.fa-twitter{
+    transition: all .5s ease-in-out;
+
+}
+
+.fa-twitter:hover{
+    color:#03a9f4;
+    cursor: pointer;
+}
+.fa-instagram{
+    transition: all .5s ease-in-out;
+
+}
+
+.fa-instagram:hover{
+    color:#ce2f36;
+    cursor: pointer;
+}
+
+
+/*end footer*/
+
+/*start meal page*/
+.assess-text{
+    color: #e2253b;
+    font-size: 24px;
+    margin-right: 32px;
+}
+
+/*end meal page*/
+/*start sofra restaurant page*/
+
+.img-sofra-page{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+        padding-top: 63px;
+}
+.sofra-page{
+    background-image: url(../images/Group%201038.jpg);
+    padding-bottom: 139px;
+    background-size: cover;
+}
+.font-sofra-page{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    width: 269px;
+    padding: 24px 47px;
+    border-radius: 35px;
+    font-size: 25px;
+}
+
+.text-sofra-page{
+        color: #fff;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.card-sofra-page{
+    background-image: url('../images/Group%201034-min.png');
+    padding-top: 55px;
+}
+.button-card-sofra-page{
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+    width: 149px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('../images/download%20button.png');
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+}
+.text-sofra-page2{
+    display: block;
+    font-size: 40px;
+    color: #6a1ca7;
+    margin-bottom: 60px;
+}
+.button-card-sofra-page2{
+        display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-align:center;
+    width: 289px;
+    border-radius: 200px;
+    border: none;
+    background-color: #c21c4c !important;
+    margin-bottom: 78px;
+    padding: 17px 20px;
+    font-size: 24px;
+    transition: all .5s ease-in-out;
+}
+.button-card-sofra-page2:hover{
+    background-color:#030535 !important;
+}
+
+/*End sofra restaurant page*/
+
+/* start previous-order-page*/
+
+.previous-order-page{
+        background-color: #ec3554;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 27px
+}
+.card-previous-order-page2{
+     width: 42rem;
+    display: block;
+    margin: 0 auto;
+    background-color: #ececec;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.text-previous-order-page2{
+        font-size: 30px;
+    color: #df3a56;
+    margin-bottom: 10px;
+}
+.text-previous-order-page3{
+        font-size: 20px;
+    margin-bottom: 5px;
+        color: #635353;
+}
+.form-connect-us{
+
+    margin: 0 auto;
+    width: 75%;
+    background-color: #a70d4b;
+    padding: 30px;
+    margin-top: 39px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+/* end previous-order-page*/
+
+
+/*start meal page*/
+
+.button-meal-page{
+    display: -webkit-box;
+    margin: 0 auto;
+    background-image: url(../images/Group%201039.png) !important;
+    margin-bottom: 100px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-right: 59px;
+    padding-left: 83px;
+    border-radius: 50px;
+    background-size: cover;
+    font-size: 26px;
+    background-position: bottom;
+    margin-top: 50px;
+    background-color: #fff !important;
+    border: none;
+    transition: all .5s ease-in-out;
+}
+
+.button-meal-page:hover{
+            background-color: #fff;
+    border: none;
+   color: #ea596a;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 16px;
+    height: 14px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:focus span{
+    outline: none;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+     background-color: #361771 !important;
+}
+.owl-carousel .owl-nav button.owl-next{
+    display: none;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    display: none;
+}
+.article{
+    background-image: url(../images/Group%201038.jpg);
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+
+/*end meal page*/
+/*start offer page*/
+.button-offer{
+    display:block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 200px;
+    padding: 17px 57px;
+    background-color: #c11b4d;
+    color: #fff;
+    outline: none;
+  transition: all .5s ease-in-out;
+}
+.button-offer:focus{
+outline: none;
+    
+}
+.button-offer:hover{
+    background-color: #241b63;
+    cursor: pointer;
+}
+
+/*end offer page*/
+/* start register-1*/
+.form2{
+    width: 67%;
+    margin: 0 auto;
+    background-color:#fff;
+    padding: 15px;
+    border-radius: 20px;
+}
+.form3{
+    width: 67%;
+    margin: 0 auto;
+    background-color:#fff;
+    padding: 15px;
+    border-radius: 20px;
+    padding: 21px;
+}
+.form4{
+    margin: 0 auto;
+    width: 75%;
+    background-color: #a70d4b;
+    padding: 30px;
+    margin-top: 39px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+/*end register-1*/
+/*start commission new*/
+.button-commission-new{
+    margin: 0 auto;
+    border: none;
+    border-radius: 200px;
+    color: #fff;
+    outline: none;
+  transition: all .5s ease-in-out;
+    margin-top: 17px;
+    display: inline-block;
+    padding: 10px 46px;
+    margin-right: 87px;
+     background-color: #241b63;
+    
+}
+.button-commission-new:focus{
+outline: none;
+    
+}
+.button-commission-new:hover{
+    background-color: #009422;
+    cursor: pointer;
+}
+
+.button-commission-new2{
+    margin: 0 auto;
+    border: none;
+    border-radius: 200px;
+    background-color: #c11b4d;
+    color: #fff;
+    outline: none;
+  transition: all .5s ease-in-out;
+    margin-top: 17px;
+    display: inline-block;
+    padding: 10px 46px;
+}
+.button-commission-new2:focus{
+outline: none;
+    
+}
+.button-commission-new2:hover{
+    background-color: #241b63;
+    cursor: pointer;
+}
+
+.button-commission-new3{
+    margin: 0 auto;
+    border: none;
+    border-radius: 200px;
+    background-color: #c11b4d;
+    color: #fff;
+    outline: none;
+  transition: all .5s ease-in-out;
+    margin-top: 17px;
+    display: inline-block;
+    background-color:#009422;
+    padding: 10px 46px;
+}
+.button-commission-new3:focus{
+outline: none;
+    
+}
+.button-commission-new3:hover{
+    background-color: #241b63;
+    cursor: pointer;
+}
+
+.burger-new{
+    width: 30%;
+    float: right;
+    border: 3px solid #f00;
+    border-radius: 200px;
+    margin-left: 28px;
+}
+
+/*end commission new*/
+
+
+/*start media query*/
+
+@media only screen and ( max-width:768px){
+
+    
+    .resturant .form-control{
+        display: none;
+    }
+
+
+    .img-nav{
+        float: none;
+        margin-right: 123px;
+        
+    }
+    .icon{
+    margin-right: 140px;
+    margin-left: 0px;
+    }
+    .img-rest{
+     margin-top: -170px;
+    width:128px;
+  }
+    .text-rest3{
+        margin-left: 27px;
+    }
+    .text-rest4{
+            margin-top: 10px;
+    }
+    .img-offer {
+    display: -webkit-box;
+    margin: 0 auto;       
+    margin-top: 27px;
+
+    }
+    .img-download{
+    
+        width: 100%;
+    }
+    .text-download2 {
+    display: -webkit-box;
+    margin: 0 auto;
+    padding: 12px 44px;
+    font-size: 33px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+    .img-footer{
+        margin: 0 auto;
+            margin-top: 50px;
+    }
+    .text-footer{
+        text-align: center;
+    }
+    .text-footer2{
+      margin-bottom: 30px;
+    }
+    .font2{
+        margin-top: 50px;
+    display: -webkit-box;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .card-previous-order-page2{
+    width: 21rem;
+    }
+    .text-previous-order-page2 {
+    font-size: 30px;
+    color: #df3a56;
+    margin-bottom: 20px;
+   
+    }
+    .formm{
+    width: 100%;
+    }
+    .button-offer-com{
+    margin-top: 36px;
+    display: block;
+    background-color: #009422;
+    margin-right: 3px;
+    padding: 16px 73px;  
+    }
+    .img-com-current{
+    width: 67%;
+    float:none;
+    border: 3px solid #f00;
+    border-radius: 200px;
+    display: -webkit-box;
+    margin: 0 auto;
+    }
+    .font{
+            margin-right: 130px;
+    }
+    .form-connect-us{
+        width: 100%;
+    }
+    .assess-text{
+        margin-right: 96px;
+    }
+    .logo{
+    width: 20%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 162px;
+    margin-top: -64px;
+    }
+    .fa-hamburger {
+    color: #EC3454;
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 276px;
+    position: absolute;
+    left: 0px;
+    bottom: 33px;
+    }
+    .fa-user-circle{
+      margin-right: 2rem;
+    }
+    .form2{
+        width: 100%;
+    }
+    .form3{
+        width: 100%;
+    }
+    .form4{
+    width: 100%;
+    }
+    .button-commission-new,.button-commission-new2,.button-commission-new3{
+        display:block;
+        margin-right: auto;
+    }
+    .button-commission-new{
+        margin-top: 25px;
+    }
+    .burger-new{
+    display: block;
+    margin: 0 auto;
+    float: none;
+    width: 80%;
+    }
+    
+    
+}
+/*end media query*/
